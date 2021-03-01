@@ -1,0 +1,121 @@
+/* main style */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8D3630;
+    font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 798px;
+    border: 1px solid #f9e7eb;
+    position: relative;
+    padding: 0;
+}
+
+/* nav style */
+.nav-list {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.nav-list__link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #efaaa5;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    margin: 5px;
+}
+
+.nav-list__link:hover {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-list__item {
+    display: inline;
+    text-decoration: none;
+    border-left: 2px solid white;
+    padding: 0 2px 0 4px;
+}
+
+.hr_nav {
+    color: white;
+    margin: 0;
+}
+
+
+/* main style */
+
+.main {
+    margin-top: 10px;
+}
+
+.input_main {
+    vertical-align: middle;
+    border: 1px solid #fbe6c9;
+    background: #8D3630;
+    font: 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: black;
+    width: 75px;
+}
+
+.list_father {
+    font-size: 18px;
+    line-height: 0.5;
+    text-align: center;
+}
+
+.pray {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 0.1;
+}
+
+.pray__text {
+    margin: 0;
+
+}
+
+.bottom__logo {
+    alignment: center;
+    margin-bottom: 80px;
+}
+
+.row {
+    margin: 0;
+}
+
+.eval-list {
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+}
+
+.eval-list__items {
+    text-decoration: underline;
+}
+
+.eval-list__links {
+    color: #ffd200;
+    line-height: 2;
+}
+
+.eval-list__links:hover {
+    color: #ffd200;
+}
