@@ -53,8 +53,8 @@ body {
 }
 
 .hr_nav {
-    color: white;
     margin: 0;
+    background: white;
 }
 
 
@@ -71,6 +71,7 @@ body {
     font: 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
     color: black;
     width: 75px;
+    иф
 }
 
 .list_father {
